@@ -12,4 +12,4 @@ Installations -
 Inside project folder
 1.	run command "npm install" or "npm i"  (from Terminal)
 2.	run command "ng serve"  (from terminal)
-3.	now go to browser(chrome) -- https://localhost:4200
+3.	now go to browser(chrome, firefox, etc.) -- https://localhost:4200
