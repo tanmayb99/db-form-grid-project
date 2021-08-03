@@ -1,0 +1,28 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    /* strictInjectionParameters
+      true --> reports an error for a supplied parameter whose injection type cannot be determined.
+      false --> constructor parameters of classes marked with @Injectable
+      whose type cannot be resolved produce a warning.
+    */
+    "strictInjectionParameters": true
+  }
+}
